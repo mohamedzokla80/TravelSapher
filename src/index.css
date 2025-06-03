@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DynaPuff:wght@400..700&family=Itim&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Kufi+Arabic:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-gradient-to-r from-primary to-secondary text-white font-bold py-3 px-6 rounded-3xl outline-none border-0 cursor-pointer;
+    @apply transition duration-300 ease-in-out transform hover:scale-105;
+    @apply shadow-lg hover:shadow-xl text-base;
+    @apply focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 dure;
+    @apply hover:bg-gradient-to-l;
+  }
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.section {
+  padding: 2rem 0;
+}
+
+.icon{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+img , video{
+  width: 100%;
+  height: auto;
+}
+input{
+  font-size: 100%;
+
+}
+body{
+  background: var(--body-color);
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* عرض السكرول بار */
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(240, 4%, 36%); /* لون المسار */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  ); /* التدرج اللوني */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(199, 100%, 33%); /* لون عند التحويم */
+}
+
+.overlay{
+  mix-blend-mode: hard-light;
+}
+
+.dure{
+  transition: all 0.s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
