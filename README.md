@@ -4,7 +4,7 @@
 
 <img src="https://private-user-images.githubusercontent.com/74038190/325895960-26a48b1f-4716-4b8c-b58a-027f269c8c1f.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTk0OTc4OTEsIm5iZiI6MTc1OTQ5NzU5MSwicGF0aCI6Ii83NDAzODE5MC8zMjU4OTU5NjAtMjZhNDhiMWYtNDcxNi00YjhjLWI1OGEtMDI3ZjI2OWM4YzFmLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDAzVDEzMTk1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk3N2Q0YjYwYzlmZDFkMWQwYTRkYTdiZWQ2YmVmOGM1ZmFjZTMxNmMyMjFlZTg0YTBmODAwOTI0MTVkZTQ4NjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.L6dKTWXCe0mJTbkXxf5Dfatlig1jGCzUgqxTiDJF0xQ" width="300" alt="TravelSapher GIF" />
 
-### 🌐 [Live Demo](https://travel-sapher.netlify.app/) | 📂 [Repository]((https://github.com/mohamedzokla80/TravelSapher))
+### 🌐 [Live Demo](https://travel-sapher.netlify.app/) | 📂 [Repository](https://github.com/mohamedzokla80/TravelSapher)
 
 </div>
 
@@ -46,7 +46,7 @@
 
 ### 📦 Installation
 ```bash
-git clone https://github.com/ADRIANO125/TravelSapher.git
+git clone https://github.com/mohamedzokla80/TravelSapher.git
 cd TravelSapher
 npm install
 # or
